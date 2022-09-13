@@ -1,0 +1,23 @@
+specVersion: 0.25.0
+name: myfunc
+namespace: ""
+runtime: node
+registry: ""
+image: ""
+imageDigest: ""
+build: git
+builder: s2i
+git: {}
+buildpacks: []
+volumes: []
+buildEnvs: []
+envs: []
+annotations: {}
+options: {}
+labels: []
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+created: 2022-09-13T15:54:49.784057+02:00
+invocation:
+  format: http
