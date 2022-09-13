@@ -7,7 +7,8 @@ image: ""
 imageDigest: ""
 build: git
 builder: s2i
-git: {}
+git:
+  url: https://github.com/siamaksade/fn-nodejs
 buildpacks: []
 volumes: []
 buildEnvs: []
