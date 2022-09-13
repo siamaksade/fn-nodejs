@@ -3,10 +3,9 @@ name: myfunc
 namespace: ""
 runtime: node
 registry: ""
-image: ""
+image: image-registry.openshift-image-registry.svc:5000/default/myfunc:latest
 imageDigest: ""
 build: git
-builder: s2i
 git:
   url: https://github.com/siamaksade/fn-nodejs
 buildpacks: []
